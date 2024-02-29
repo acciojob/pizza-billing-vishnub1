@@ -6,13 +6,11 @@ public class Pizza {
     private String bill="";
     private int cheese;
     private int toppings;
-    private boolean isExtraCheeseAdded;
-    private boolean isExtraToppingsAdded;
-    private boolean isTakeAwayAdded;
+    private boolean isExtraCheeseAdded, isExtraToppingsAdded, isTakeAwayAdded;
     private boolean isBillGenerated;
+
     public Pizza(Boolean isVeg){
         this.isVeg = isVeg;
-
         // your code goes here
 
         this.isBillGenerated=false;
